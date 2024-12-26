@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #3498db; /* Light blue */
+    --secondary-color: #2ecc71; /* Green */
+    --font-size-large: 18px;
+    --dark-mode-color-black: black;
+    --dark-mode-color-white: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-mode-color-black); /* Dark mode background color */
+    color: var(--dark-mode-color-white); /* Dark mode text color */
+}
+* {
+    box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+}
+.box_event {
+    background-color: var(--primary-color); /* Box background color */
+    position: absolute; /* Position the box absolutely */
+    min-width: 100px; /* Minimum width of the box */
+    min-height: 50px; /* Minimum height of the box */
+    top: 0; /* Initial top position */
+    left: 0; /* Initial left position */
+}
+
